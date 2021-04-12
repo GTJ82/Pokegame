@@ -1,0 +1,22 @@
+.Pokedex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    color: mediumseagreen;
+    font-size: 60px;
+}
+
+.loser {
+    color: red;
+}
